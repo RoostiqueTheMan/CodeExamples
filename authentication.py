@@ -33,8 +33,9 @@ class JWTToken:
     ):
         """Initialize class method.
 
-        :param cypher_algorithm: Cyther algorythm type
-        :param secret_key: salt key
+        Args:
+            param cypher_algorithm: Cypher algorythm type
+            param secret_key: salt key
         """
         self.__secret_key = secret_key
         self.__cypher_algorithm = cypher_algorithm
